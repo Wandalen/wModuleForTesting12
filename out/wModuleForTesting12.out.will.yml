@@ -3,7 +3,7 @@ root:
   - wModuleForTesting12.out
 consistency:
   ../.ex.will.yml: &ref_0
-    hash: 6be2a5a958805f6b5d62539d5af0985b
+    hash: eb6433d861391b9fb7183418d44b7db0
     size: 1861
   ../.im.will.yml: &ref_1
     hash: 1fd3c548ea9f00e233aa0128d4d90c9c
@@ -67,7 +67,7 @@ module:
       origins:
         path:
           - 'git+https:///github.com/Wandalen/wModuleForTesting12.git'
-          - 'npm:///wModuleForTesting12'
+          - 'npm:///wmodulefortesting12'
       bugtracker:
         path: 'https:///github.com/Wandalen/wModuleForTesting12/issues'
       in:
@@ -162,7 +162,6 @@ module:
           - ../proto/dwtools/abase/l3/l3
           - ../proto/dwtools/abase/l3/l3/ModuleForTesting12.s
           - ../proto/dwtools/abase/l3.test
-          - ../proto/dwtools/abase/l3.test/.ModuleForTesting12.test.s.swp
           - ../proto/dwtools/abase/l3.test/ModuleForTesting12.test.s
     submodule:
       wTools:
@@ -843,7 +842,7 @@ module:
       origins:
         path:
           - 'git+https:///github.com/Wandalen/wModuleForTesting12.git'
-          - 'npm:///wModuleForTesting12'
+          - 'npm:///wmodulefortesting12'
       bugtracker:
         path: 'https:///github.com/Wandalen/wModuleForTesting12/issues'
       in:
@@ -1484,7 +1483,7 @@ module:
           - 'build::npm'
     consistency:
       ../.ex.will.yml:
-        hash: 6be2a5a958805f6b5d62539d5af0985b
+        hash: eb6433d861391b9fb7183418d44b7db0
         size: 1861
       ../.im.will.yml:
         hash: 1fd3c548ea9f00e233aa0128d4d90c9c
