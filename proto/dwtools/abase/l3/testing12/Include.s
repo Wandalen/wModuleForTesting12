@@ -9,7 +9,7 @@
 let _ = null;
 
 if( typeof module !== 'undefined' )
-_ = require( './l3/ModuleForTesting12.s' );
+_ = require( './ModuleForTesting12.s' );
 
 if( typeof module !== 'undefined' && module !== null )
 module[ 'exports' ].divideMulOnSum = _.divideMulOnSum;

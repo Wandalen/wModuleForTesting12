@@ -2,14 +2,14 @@
 
 'use strict';
 
-let test1 = require( 'wmodulefortesting1' );
+let test1 = require( '../../../Tools.s' );
 let test2 = require( 'wmodulefortesting2' );
 
 // --
 // Routines
 // --
 
-function divideMulOnSum() 
+function divideMulOnSum()
 {
   let sum = test1.sumOfNumbers.apply( this, arguments );
   let mul = test2.mulOfNumbers.apply( this, arguments );

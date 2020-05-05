@@ -1,10 +1,10 @@
 submodule :
 
   wModuleForTesting1 :
-    path : git+https:///github.com/Wandalen/wModuleForTesting1.git
+    path : git+https:///github.com/Wandalen/wModuleForTesting1.git/@gamma
     enabled : 1
   wModuleForTesting2 :
-    path : git+https:///github.com/Wandalen/wModuleForTesting2.git
+    path : git+https:///github.com/Wandalen/wModuleForTesting2.git/@gamma
     enabled : 1
   # Self :
   #  path : hd://.
@@ -56,7 +56,7 @@ path :
       content : prime
 
   entry.proto.no.tests :
-    path : proto/dwtools/abase/l3/Include.s
+    path : proto/dwtools/abase/l3/testing12/Include.s
     criterion :
       tests : 'no.tests'
   entry.proto.only.tests :
@@ -68,7 +68,7 @@ path :
   # npm.files : proto
 
   entry.out.raw.debug :
-    path : '{path::out.*=1}/proto/dwtools/abase/l3/Include.s'
+    path : '{path::out.*=1}/proto/dwtools/abase/l3/testing12/Include.s'
     criterion :
       debug : [ debug, release ]
       raw : raw

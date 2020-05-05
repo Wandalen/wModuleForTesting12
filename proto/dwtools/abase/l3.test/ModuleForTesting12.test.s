@@ -5,7 +5,7 @@
 if( typeof module !== 'undefined' )
 {
 
-  var _ = require( '../l3/Include.s' );
+  var _ = require( '../l3/testing12/Include.s' );
 
   require( 'wTesting' );
 
@@ -17,7 +17,7 @@ if( typeof module !== 'undefined' )
 // test
 // --
 
-function trivial( test ) 
+function trivial( test )
 {
   test.case = 'square of positive numbers';
   var got = _.divideMulOnSum( 4, 4 );
