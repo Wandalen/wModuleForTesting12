@@ -116,7 +116,7 @@ module:
       entry.proto.no.tests:
         criterion:
           tests: no.tests
-        path: ../proto/dwtools/abase/l3/testing12/Include.s
+        path: ../proto/dwtools/testing/l3/testing12/Include.s
       entry.proto.only.tests:
         criterion:
           tests: only.tests
@@ -126,13 +126,13 @@ module:
           debug: debug
           raw: raw
           content: prime
-        path: '{path::out.*=1}/proto/dwtools/abase/l3/testing12/Include.s'
+        path: '{path::out.*=1}/proto/dwtools/testing/l3/testing12/Include.s'
       entry.out.raw.debug.release:
         criterion:
           debug: release
           raw: raw
           content: prime
-        path: '{path::out.*=1}/proto/dwtools/abase/l3/testing12/Include.s'
+        path: '{path::out.*=1}/proto/dwtools/testing/l3/testing12/Include.s'
       entry.out.compiled.debug.debug:
         criterion:
           debug: debug
@@ -160,20 +160,20 @@ module:
           - ../proto
           - ../proto/dwtools
           - ../proto/dwtools/Tools.s
-          - ../proto/dwtools/abase
-          - ../proto/dwtools/abase/l3
-          - ../proto/dwtools/abase/l3/testing12
-          - ../proto/dwtools/abase/l3/testing12/Include.s
-          - ../proto/dwtools/abase/l3/testing12/ModuleForTesting12.s
-          - ../proto/dwtools/abase/l3.test
-          - ../proto/dwtools/abase/l3.test/ModuleForTesting12.test.s
+          - ../proto/dwtools/testing
+          - ../proto/dwtools/testing/l3
+          - ../proto/dwtools/testing/l3/testing12
+          - ../proto/dwtools/testing/l3/testing12/Include.s
+          - ../proto/dwtools/testing/l3/testing12/ModuleForTesting12.s
+          - ../proto/dwtools/testing/l3.test
+          - ../proto/dwtools/testing/l3.test/ModuleForTesting12.test.s
     submodule:
       ModuleForTesting1:
-        path: 'git+https:///github.com/Wandalen/wModuleForTesting1.git/@gamma'
+        path: 'git+https:///github.com/Wandalen/wModuleForTesting1.git/!alpha'
         autoExporting: 0
         enabled: 0
       ModuleForTesting2:
-        path: 'git+https:///github.com/Wandalen/wModuleForTesting2.git/@gamma'
+        path: 'git+https:///github.com/Wandalen/wModuleForTesting2.git/!alpha'
         autoExporting: 0
         enabled: 0
       Testing:
@@ -902,7 +902,7 @@ module:
       entry.proto.no.tests:
         criterion:
           tests: no.tests
-        path: proto/dwtools/abase/l3/testing12/Include.s
+        path: proto/dwtools/testing/l3/testing12/Include.s
       entry.proto.only.tests:
         criterion:
           tests: only.tests
@@ -912,13 +912,13 @@ module:
           debug: debug
           raw: raw
           content: prime
-        path: '{path::out.*=1}/proto/dwtools/abase/l3/testing12/Include.s'
+        path: '{path::out.*=1}/proto/dwtools/testing/l3/testing12/Include.s'
       entry.out.raw.debug.release:
         criterion:
           debug: release
           raw: raw
           content: prime
-        path: '{path::out.*=1}/proto/dwtools/abase/l3/testing12/Include.s'
+        path: '{path::out.*=1}/proto/dwtools/testing/l3/testing12/Include.s'
       entry.out.compiled.debug.debug:
         criterion:
           debug: debug
@@ -933,11 +933,11 @@ module:
         path: '{path::out.*=}/source/Index.s'
     submodule:
       ModuleForTesting1:
-        path: 'git+https:///github.com/Wandalen/wModuleForTesting1.git/@gamma'
+        path: 'git+https:///github.com/Wandalen/wModuleForTesting1.git/!alpha'
         autoExporting: 0
         enabled: 0
       ModuleForTesting2:
-        path: 'git+https:///github.com/Wandalen/wModuleForTesting2.git/@gamma'
+        path: 'git+https:///github.com/Wandalen/wModuleForTesting2.git/!alpha'
         autoExporting: 0
         enabled: 0
       Testing:
