@@ -3,13 +3,12 @@
 
 'use strict';
 
+let _;
 if( typeof module !== 'undefined' )
 {
-  let _ = require( '../l3/testing12/Include.s' );
+  _ = require( '../l3/testing12/Include.s' );
   require( 'wTesting' );
 }
-
-let _ = _global_._test_;
 
 // --
 // test
