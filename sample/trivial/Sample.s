@@ -1,7 +1,5 @@
-if( typeof module !== 'undefined' )
-require( 'wmodulefortesting12' );
 
-let _ = _global_._test_;
+let _ = require( 'wmodulefortesting12' );
 
 var result = _.divideMulOnSum( 4, 4 );
 
