@@ -1,6 +1,6 @@
 {
   "name": "wmodulefortesting12",
-  "version": "0.0.163",
+  "version": "0.0.164",
   "engine": "node >= 10.0.0",
   "description": "Module for testing. This module is a test asset and not intended to be used with another purpose.",
   "author": "Kostiantyn Wandalen <wanalen@01.school>",
@@ -32,8 +32,8 @@
     "url": "https://github.com/Wandalen/wModuleForTesting12/issues"
   },
   "dependencies": {
-    "wmodulefortesting2": "stable",
-    "wmodulefortesting1": "stable"
+    "wmodulefortesting2": "latest",
+    "wmodulefortesting1": "latest"
   },
   "devDependencies": {},
   "keywords": [
